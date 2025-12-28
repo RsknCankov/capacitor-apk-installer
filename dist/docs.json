@@ -1,0 +1,51 @@
+{
+  "api": {
+    "name": "ApkInstallerPlugin",
+    "slug": "apkinstallerplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "installApk",
+        "signature": "(options: { filePath: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ filePath: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "installapk"
+      },
+      {
+        "name": "checkInstallPermission",
+        "signature": "() => Promise<{ canInstall: boolean; }>",
+        "parameters": [],
+        "returns": "Promise<{ canInstall: boolean; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "checkinstallpermission"
+      },
+      {
+        "name": "requestInstallPermission",
+        "signature": "() => Promise<{ canInstall: boolean; }>",
+        "parameters": [],
+        "returns": "Promise<{ canInstall: boolean; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "requestinstallpermission"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
