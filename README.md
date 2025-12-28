@@ -14,6 +14,8 @@ npx cap sync
 <docgen-index>
 
 * [`installApk(...)`](#installapk)
+* [`checkInstallPermission()`](#checkinstallpermission)
+* [`requestInstallPermission()`](#requestinstallpermission)
 
 </docgen-index>
 
@@ -29,6 +31,28 @@ installApk(options: { filePath: string; }) => Promise<void>
 | Param         | Type                               |
 | ------------- | ---------------------------------- |
 | **`options`** | <code>{ filePath: string; }</code> |
+
+--------------------
+
+
+### checkInstallPermission()
+
+```typescript
+checkInstallPermission() => Promise<{ canInstall: boolean; }>
+```
+
+**Returns:** <code>Promise&lt;{ canInstall: boolean; }&gt;</code>
+
+--------------------
+
+
+### requestInstallPermission()
+
+```typescript
+requestInstallPermission() => Promise<{ canInstall: boolean; }>
+```
+
+**Returns:** <code>Promise&lt;{ canInstall: boolean; }&gt;</code>
 
 --------------------
 
