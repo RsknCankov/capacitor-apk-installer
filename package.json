@@ -1,6 +1,6 @@
 {
   "name": "capacitor-apk-installer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This plugin is installing an already downloaded .apk file by given filePath",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
